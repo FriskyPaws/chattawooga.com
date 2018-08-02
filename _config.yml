@@ -1,0 +1,14 @@
+
+markdown: kramdown
+exclude:
+  - .idea
+  - node_modules
+include:
+  - _pages
+  - _posts
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed
