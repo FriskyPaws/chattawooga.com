@@ -1,0 +1,22 @@
+{
+  "name": "chattawooga.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FriskyPaws/chattawooga.com.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FriskyPaws/chattawooga.com/issues"
+  },
+  "homepage": "https://github.com/FriskyPaws/chattawooga.com#readme"
+}
