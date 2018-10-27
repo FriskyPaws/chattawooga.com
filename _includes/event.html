@@ -1,0 +1,12 @@
+<div class="event">
+    <h4>{{ event.name }}</h4>
+    <div class="date">Date: {{ event.date | date_to_long_string }}</div>
+    <div class="time">Time: {{ event.time }}</div>
+    {% if event.location %}
+        <div class="location">Location: {{ event.location }}</div>
+    {% endif %}
+    {% if event.address %}
+        <div class="address">Address: {{ event.address }}</div>
+    {% endif %}
+    <p class="about">{{ event.about }}</p>
+</div>

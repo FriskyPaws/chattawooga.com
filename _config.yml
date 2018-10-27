@@ -2,12 +2,27 @@
 markdown: kramdown
 exclude:
   - .idea
-  - node_modules
 include:
   - _pages
   - _posts
 plugins:
   - jekyll-feed
+
+collections_dir: collections
+collections:
+  artists:
+    output: true
+    permalink: /artists/:slug
+  events:
+    output: false
+
+defaults:
+- scope:
+    path: ""
+    type: channels
+  values:
+    layout: channel
+
 
 sass:
   load_paths:

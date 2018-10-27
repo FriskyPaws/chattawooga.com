@@ -1,0 +1,12 @@
+---
+layout: default
+title: Events
+permalink: /events/
+---
+
+<div class="flex-row">
+    {% assign events = site.events | sort: 'date' %}
+    {% for event in events %}
+        {% include event.html %}
+    {% endfor %}
+</div>

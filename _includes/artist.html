@@ -1,0 +1,12 @@
+<div class="artist col-md-2">
+    {% if artist.image %}
+        <img src="{{ artist.image }}" />
+    {% endif %}
+    <div class="name">{{ artist.name }}</div>
+    {% if artist.links.furaffinity %}
+        <a class="icon icon-furaffinity" target="_blank" href="https://www.furaffinity.com/{{ artist.links.furaffinity }}"></a>
+    {% endif %}
+    {% if artist.links.twitter %}
+        <a class="icon icon-twitter" target="_blank" href="https://twitter.com/{{ artist.links.twitter }}"></a>
+    {% endif %}
+</div>

@@ -1,0 +1,29 @@
+.artist {
+  background-color: #ccc;
+  margin: 1em 10%;
+  padding: .25em .5em;
+
+  img {
+    width: 100%;
+  }
+
+  .name {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+
+    &.icon-furaffinity {
+      background-image: url("/images/icons/furaffinity.svg");
+    }
+    &.icon-twitter {
+      background-image: url("/images/icons/twitter.svg");
+    }
+  }
+}

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Artists
+permalink: /artists/
+---
+
+<div class="flex-row">
+    {% assign artists = site.artists | sort: 'name' %}
+    {% for artist in artists %}
+        {% include artist.html %}
+    {% endfor %}
+</div>
